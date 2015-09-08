@@ -5,3 +5,4 @@ RUN apt-get update && apt-get install -y nodejs mysql-client --no-install-recomm
 RUN mkdir -p /vagrant/src/app
 WORKDIR /vagrant/src/app
 
+CMD /bin/bash
